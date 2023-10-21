@@ -21,12 +21,12 @@ header {
   align-items: center;
 }
 
+.text {
+  font-size: 24px;
+}
 .category {
   color: gray;
   justify-content: left;
-}
-.text {
-  font-size: 24px;
 }
 .date {
   color: gray;
