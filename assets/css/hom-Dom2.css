@@ -1,13 +1,71 @@
 body {
-  min-height: 100vh;
-  font-size: 36px;
   display: flex;
-  flex-direction: column;
+  padding: -20px;
+  flex-wrap: wrap;
+}
+.conteiner {
+  gap: 15px;
+  border: 10px;
+  border-color: 1px solid red;
+}
+header {
+  width: 100%;
+  height: 150px;
+  background-image: url("https://cdn.mos.cms.futurecdn.net/yS8AdDkWFHzDhEjycLwkc9-970-80.jpg.webp");
+  background-color: yellow;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.title {
   justify-content: center;
   align-items: center;
 }
-.headerBgSrc {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.category {
+  color: gray;
+  justify-content: left;
+}
+.p {
+  font-size: 24px;
+}
+.date {
+  color: gray;
+  position: absolute;
+  right: 0;
+}
+.deleteIcon {
+  position: absolute;
+  right: 5px;
+  background: none;
+  border: none;
+}
+.btnHeart {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  border: none;
+}
+.heartIcon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  margin: 10px;
+  border-radius: 50%;
+  border: 3px solid black;
+  background: none;
+}
+
+.heartIconClick {
+  color: yellow;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  margin: 30px;
+  border-radius: 50%;
+  border: 3px solid black;
+  background: none;
 }
