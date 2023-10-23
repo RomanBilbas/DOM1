@@ -1,53 +1,54 @@
 body {
   display: flex;
-  padding: -20px;
   flex-wrap: wrap;
 }
-.conteiner {
+.newsCard {
   gap: 15px;
-  border: 10px;
+
   border-color: 1px solid red;
 }
-header {
+.newsParagraph {
+  font-size: 24px;
+}
+
+.newsInfo {
   width: 100%;
-  height: 150px;
-  background-image: url("https://cdn.mos.cms.futurecdn.net/yS8AdDkWFHzDhEjycLwkc9-970-80.jpg.webp");
-  background-color: yellow;
+  height: 200px;
   background-origin: border-box;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   justify-content: center;
   align-items: center;
+  background-size: 100%;
 }
 
-.text {
+h2 {
   font-size: 24px;
+  vertical-align: middle;
+  line-height: 200px;
+  color: green;
+  text-align: center;
 }
 .category {
   color: gray;
   justify-content: left;
 }
+
 .date {
   color: gray;
   position: absolute;
   right: 0;
 }
-.deleteIcon {
-  position: absolute;
-  right: 5px;
-  background: none;
-  border: none;
-}
-.btnHeart {
-  position: absolute;
+
+.trash {
+  /* position: absolute; */
   right: 0;
   top: 0;
   margin: 10px;
   border: none;
 }
-.heartIcon {
-  position: absolute;
+.heartinactive {
   right: 0;
   top: 0;
   z-index: 999;
@@ -57,9 +58,8 @@ header {
   background: none;
 }
 
-.heartIconClick {
+.heartactive {
   color: yellow;
-  position: fixed;
   top: 0;
   right: 0;
   z-index: 999;
