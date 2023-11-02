@@ -4,8 +4,8 @@ body {
 }
 .newsCard {
   gap: 15px;
-
-  border-color: 1px solid red;
+  border: 2px solid black;
+  /* border-color: 1px solid red; */
 }
 .newsParagraph {
   font-size: 24px;
@@ -33,6 +33,7 @@ h2 {
 .category {
   color: gray;
   justify-content: left;
+  font-size: 32px;
 }
 
 .date {
@@ -49,12 +50,12 @@ h2 {
   border: none;
 }
 .heartinactive {
+  color: black;
   right: 0;
   top: 0;
   z-index: 999;
   margin: 10px;
   border-radius: 50%;
-  border: 3px solid black;
   background: none;
 }
 
@@ -65,6 +66,5 @@ h2 {
   z-index: 999;
   margin: 30px;
   border-radius: 50%;
-  border: 3px solid black;
   background: none;
 }
